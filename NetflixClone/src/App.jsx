@@ -51,12 +51,11 @@ function App() {
   return (
     <>
       <Navbar />
-      <Container fluid>
-      <Row className="align-items-center" style={{ marginBottom: '0' }}>
-        <Col xs={12} sm={6}>
-          <h1 className="movieTitle mb-0">TV Shows</h1>
-        </Col>
-        <Col xs={12} sm={6} className="text-right">
+      <Container className='d-flex ms-0 mt-5'>
+        
+          <h1 className="movieTitle mb-0 ">TV Shows</h1>
+        
+       
           <Dropdown style={{ margin: '0', padding: '8px' }}>
             <Dropdown.Toggle variant="outline-light" id="dropdown-basic">
               Generi
@@ -74,8 +73,6 @@ function App() {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-        </Col>
-      </Row>
     </Container>
       <h2 className='movieTitle' style={{ margin: '0', padding: '20px' }}>Da rivedere per la 100esima volta...</h2>
       <div className='gallery'>

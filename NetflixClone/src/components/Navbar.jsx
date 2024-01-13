@@ -18,7 +18,7 @@ const Navbar = () => {
  
     return (
     <div className='navbar'>
-        <div className='container'>
+        <div className='container m-0'>
             <div className='left'>
             <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="" />
             <span>Homepage</span>
