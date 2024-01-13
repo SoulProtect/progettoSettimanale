@@ -76,8 +76,9 @@ body {
 }
 
 .movie-poster-container {
-  width: 350px;
-  height: 450px;
+  /* width: 350px;
+  height: 450px; */
+  font-size: 300px;
   margin: 10px;
   border-radius: 5px;
   overflow: hidden;

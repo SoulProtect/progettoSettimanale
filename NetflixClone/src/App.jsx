@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col, Dropdown } from 'react-bootstrap';
+import { Container, Row, Col, Dropdown,} from 'react-bootstrap';
 import Navbar from './components/Navbar';
 import Movies from './components/CaroselloFilm';
 import Footer from './components/Footer';

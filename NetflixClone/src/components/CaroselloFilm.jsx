@@ -11,7 +11,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
       return <p>No movies available</p>; // Aggiungi un messaggio o un comportamento appropriato
   }
 
-    const moviesPerRow = 5;
+    const moviesPerRow = 6;
     const items = [];
 
     for (let i = 0; i < props.movies.length; i += moviesPerRow) {
